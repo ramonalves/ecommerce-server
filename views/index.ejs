@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<html lang=en>
+
+<head>
+  <meta charset=utf-8>
+  <meta http-equiv=X-UA-Compatible content="IE=edge">
+  <meta name=viewport content="width=device-width,initial-scale=1">
+  <title>Light Lawliet</title>
+  <link rel=icon type=image/png sizes=32x32 href=/static/img/icons/l_icon.png>
+  <link rel=icon type=image/png sizes=16x16 href=/static/img/icons/l_icon.png>
+  <!--[if IE]><link rel="shortcut icon" href="/static/img/icons/favicon.ico"><![endif]-->
+  <link rel=manifest href=/static/manifest.json>
+  <meta name=theme-color content=#4DBA87>
+  <meta name=apple-mobile-web-app-capable content=yes>
+  <meta name=apple-mobile-web-app-status-bar-style content=black>
+  <meta name=apple-mobile-web-app-title content=light-lawliet>
+  <link rel=apple-touch-icon href=/static/img/icons/apple-touch-icon-152x152.png>
+  <meta name=msapplication-TileImage content=/static/img/icons/msapplication-icon-144x144.png>
+  <meta name=msapplication-TileColor content=#000000>
+  <link rel=preload href=/static/js/vendor.ec1ccce154cc9a1660b0.js as=script>
+  <link rel=preload href=/static/js/app.1d167d22806593598760.js as=script>
+  <link rel=preload href=/static/css/app.f00cbe7e31baeaab6904de55c4c41982.css as=style>
+  <link rel=preload href=/static/js/manifest.69f7de15e7aaa8c6b939.js as=script>
+  <link href=/static/css/app.f00cbe7e31baeaab6904de55c4c41982.css rel=stylesheet>
+</head>
+
+<body>
+  <noscript>This is your fallback content in case JavaScript fails to load.</noscript>
+  <div id=app></div>
+  <script>!function () { "use strict"; const o = Boolean("localhost" === window.location.hostname || "[::1]" === window.location.hostname || window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/)); window.addEventListener("load", function () { "serviceWorker" in navigator && ("https:" === window.location.protocol || o) && navigator.serviceWorker.register("service-worker.js").then(function (o) { o.onupdatefound = function () { if (navigator.serviceWorker.controller) { const n = o.installing; n.onstatechange = function () { switch (n.state) { case "installed": break; case "redundant": throw new Error("The installing service worker became redundant.") } } } } }).catch(function (o) { console.error("Error during service worker registration:", o) }) }) }();</script>
+  <script type=text/javascript src=/static/js/manifest.69f7de15e7aaa8c6b939.js></script>
+  <script type=text/javascript src=/static/js/vendor.ec1ccce154cc9a1660b0.js></script>
+  <script type=text/javascript src=/static/js/app.1d167d22806593598760.js></script>
+</body>
+
 </html>
