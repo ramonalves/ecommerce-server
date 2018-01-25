@@ -4,7 +4,7 @@
   "description": "Sistema de ecommerce para processo seletivo da Evnts",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon ./bin/www",
+    "start": "node ./bin/www",
     "test": "set NODE_ENV=test && mocha test '/**/*.spec.js'"
   },
   "repository": {
